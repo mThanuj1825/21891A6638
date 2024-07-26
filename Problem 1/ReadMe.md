@@ -1,4 +1,4 @@
-#### _Simple API for Number fetching_
+# _Simple API for Number fetching_
 
 ### Overview
 
@@ -15,11 +15,11 @@ This is an API designed for fetching and processing numerical responses. This se
 
 `/numbers/<number_id>`
 
-## Method: `GET`
+### Method: `GET`
 
-# Description: Retrieves a list of numbers based on the specified category identifier
+#### Description: Retrieves a list of numbers based on the specified category identifier
 
-# Parameters:
+### Parameters:
 
 - `number_id` (string): The category for the numbers. Possible values are:
   - `p`: primes
@@ -27,7 +27,7 @@ This is an API designed for fetching and processing numerical responses. This se
   - `e`: even
   - `r`: random
 
-# Responses:
+### Responses:
 
 - 200 OK: Returns a JSOn object like this:
   {
@@ -56,7 +56,7 @@ Errors are logged with detailed messages to help diagnose issues. Ensure to chec
 To run the API server locally, use the following command:
 `python app.py`
 
-### Dependencies
+## Dependencies
 
 - Flask: For building the web server.
 - Requests: For making HTTP requests.
